@@ -1,38 +1,102 @@
 .App {
   text-align: center;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.student-form{
+  display: inline-block;
+ 
+  text-align: center;
+  border: 1px solid lightcoral;
+  width: 500px;
+  height: 340px;
+  margin: 26px;
+  background-color: aliceblue;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.book-form{
+  display: inline-block;
+ 
+  text-align: center;
+  border: 1px solid lightcoral;
+  width: 500px;
+  height: 290px;
+  margin: 26px;
+  background-color: aliceblue;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+label{
+  display: inline-block;
+  width: 290px;
+  height: 40px;
+  display: inline-block;
+  font-family: cursive;
+  margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+nav{
+background-color: aquamarine;
+color: black;
+
+
+}
+.stud{
+  position: relative;
+  right: 20px;
+  color: black;
+  font-family: cursive;
+}
+.book{
+  position: relative;
+  left: 20px;
+  color: black;
+  font-family: cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.cancel-button{
+  background-color: red;
 }
+
+.delete-button{
+  background-color: red;
+  margin: 8px;
+}
+
+.save-button{
+  background-color: green;
+  margin: 8px;
+}
+.edit-button{
+  background-color: lightskyblue;
+}
+
+.grid-data{
+  border: 1px solid green;
+  width: 251px;
+
+}
+
+.tr-student{
+  border: 1px solid white;
+
+ 
+}
+
+th,td{
+  border: 1px solid lightcoral;
+}
+
+thead{
+  border: 1px solid lightcoral;
+}
+
+.search-button{
+  background-color: green;
+}
+
+
+
